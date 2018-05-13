@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.img-rect{
+  background-color: yellow;
+  height: 150px;
+  width: 500px;
+}
+
+.img-rect, img {
+  height: 150px;
+  margin: 5px;
+  float: left;
+}
+
+.img-rect, p {
+  color: red;
+  font-size: 16;
+
+}
+.App-header {
+  background-color: blue;
+  height: 20px;
+  padding: 20px;
+}
+
+.App-header a {
+  color: white;
+  padding: 20px;
+}
+.App-header form {
+  color: white;
+  float: right;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
